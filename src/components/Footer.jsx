@@ -118,16 +118,12 @@ function Footer() {
             className="hidden h-8 sm:block mb-1"
           />
         </Link>
-          <Image
-            
-            alt="Digital Fortress Logo"
-            className="h-10 w-auto"
-          />
-          <p className="mt-2">Digital Fortress Private Limited offers a secure and convenient passwordless authentication solution</p>
+          
+          <p className="mt-2">Digital Fortress Private Limited offers a secure and convenient<br/> passwordless authentication solution</p>
         </div>
       </div>
 
-      <div className="px-4 py-10 sm:px-6 lg:col-span-3 lg:px-8">
+      <div className="px-4 py-4 sm:px-6 lg:col-span-3 lg:px-8">
         <FadeIn>
           <div className="grid grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-2">
             <Navigation />
