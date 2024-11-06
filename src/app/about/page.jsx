@@ -23,17 +23,17 @@ function Container({ as: Component = "div", className, children }) {
 function About() {
   return (
     <div className="bg-white min-h-screen">
-      <div className="max-w-6xl mx-auto px-6 pt-6">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 pt-6">
         {/* Header Section */}
         <h2 className="text-[#F97316] font-medium text-lg mb-1">About Us</h2>
-        <p className="text-gray-500 text-sm mb-20">
+        <p className="text-gray-500 text-sm mb-10 sm:mb-20">
           An art of facial recognition
         </p>
 
         {/* Main Content Grid */}
-        <div className="grid grid-cols-2 gap-20 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-20 mb-10 md:mb-16">
           {/* Left Column - Phone Mockups */}
-          <div className="flex gap-6">
+          <div className="flex gap-6 justify-center md:justify-start">
             <div className="border border-gray-100 rounded-[2rem] p-4 shadow-lg bg-white">
               <Image
                 src={MukhamImg}
@@ -56,13 +56,13 @@ function About() {
 
           {/* Right Column - Text Content */}
           <div>
-            <h1 className="text-4xl font-bold mb-4 leading-tight">
+            <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
               Experience the Power of <br />
-              <span className="text-[#F97316]">Password less</span>
+              <span className="text-[#F97316]">Passwordless</span>
               <br />
               <span className="text-[#F97316]">Authentication</span>
             </h1>
-            <p className="text-gray-600 mb-12 leading-relaxed">
+            <p className="text-gray-600 mb-8 md:mb-12 leading-relaxed">
               Say goodbye to passwords and protect your digital identity with
               our cutting-edge Passwordless Authentication solution. With our
               innovative technology, you can enjoy a secure and hassle-free
@@ -70,7 +70,7 @@ function About() {
             </p>
 
             {/* Stats Section */}
-            <div className="bg-white rounded-2xl shadow-md p-6 inline-flex gap-12">
+            <div className="bg-white rounded-2xl shadow-md p-6 inline-flex gap-8 md:gap-12 justify-center md:justify-start">
               <div>
                 <div className="text-2xl font-bold mb-1">35</div>
                 <div className="text-sm text-gray-500">Employees</div>

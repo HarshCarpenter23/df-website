@@ -15,7 +15,7 @@ import FaceInfo2Img from '@/images/about-2.png';
 import { Container } from './Container';
 import { FadeIn } from './FadeIn';
 import Lock from 'src/images/lock.png';
-
+import RightImg from "src/images/verify.png";
 
 function Hero() {
   return (
@@ -179,87 +179,142 @@ function Hero() {
 
 
 
-      <section className="w-full max-w-screen-lg mx-auto py-16 px-4 lg:px-16 text-center mt-28">
-      <div className="mb-10">
-        <h3 className="text-sm text-orange-500 font-semibold">
-          Flexible pricing options designed for every level of security.
-        </h3>
-        <h2 className="text-2xl lg:text-4xl font-bold mt-2">
-          Find the Perfect Plan for Your Needs
-        </h2>
-        <p className="text-gray-600 text-lg mt-2">
-          Choose your plan and experience AI-driven protection tailored to you.
-        </p>
-      </div>
+      <Container className="mt-36">
+            <FadeIn className="flex flex-col items-center justify-center gap-6">
+              <div className="mb-5">
+                <h3 className="text-5xl font-bold">Choose <span className="text-[#D4611E]">your </span> plan</h3>
+              </div>
 
-      <div className="flex flex-col lg:flex-row gap-8 lg:gap-4 justify-center items-start">
-        {/* Free Tier */}
-        <div className="flex-1 border border-gray-300 rounded-lg p-6 flex flex-col items-center text-left shadow-lg">
-          <h3 className="text-xl font-bold mb-2">Free Tier</h3>
-          <p className="text-gray-500 mb-6">
-            Ideal for individuals who need quick access to basic features.
-          </p>
-          <p className="text-4xl font-bold">$0 <span className="text-lg font-medium">/ Month</span></p>
-          <button className="mt-6 px-6 py-2 border border-orange-600 text-orange-600 font-semibold rounded-lg">
-            Get Started Now
-          </button>
-          <ul className="mt-6 space-y-4 text-gray-600">
-            <li>✔️ 20,000+ of PNG & SVG graphics</li>
-            <li>✔️ Access to 100 million stock images</li>
-            <li>❌ Upload custom icons and fonts</li>
-            <li>❌ Unlimited Sharing</li>
-            <li>❌ Upload graphics & video in up to 4k</li>
-            <li>❌ Unlimited Projects</li>
-            <li>❌ Instant Access to our design system</li>
-            <li>❌ Create teams to collaborate on designs</li>
-          </ul>
-        </div>
+              <div className="flex md:flex-row flex-col gap-4 items-end">
+                <div className="bg-[#D4611E] h-[330px] rounded-lg p-4 text-white shadow">
+                  <h3 className="font-semibold text-2xl">Free Trial</h3>
+                  <h3 className="font-bold text-3xl">$0</h3>
+                  <p className="mb-4">The perfect way to get started</p>
+                  <hr />
+                  <div className="flex flex-col gap-4 mt-6 text-md">
+                    <div className="flex gap-2 items-center">
+                      <Image
+                        src={RightImg} // Path to your image
+                        alt="Description of the image"
+                        width={20} // Desired width of the image
+                        height={20} // Desired height of the image
+                      />
+                      <p>Upto 2 users</p>
+                    </div>
+                    <div className="flex gap-2 items-center">
+                      <Image
+                        src={RightImg} // Path to your image
+                        alt="Description of the image"
+                        width={20} // Desired width of the image
+                        height={20} // Desired height of the image
+                      />
+                      <p>No support</p>
+                    </div>
+                    <div className="flex gap-2 items-center">
+                      <Image
+                        src={RightImg} // Path to your image
+                        alt="Description of the image"
+                        width={20} // Desired width of the image
+                        height={20} // Desired height of the image
+                      />
+                      <p>Limited statistic</p>
+                    </div>
+                  </div>
+                  <div>
+                    <button className="w-full bg-white text-black rounded-md mt-3 mb-2 py-1">START TRIAL</button>
+                  </div>
+                </div>
 
-        {/* Premium Tier */}
-        <div className="flex-1 bg-gray-900 text-white rounded-lg p-6 flex flex-col items-center text-left shadow-lg transform scale-105">
-          <h3 className="text-xl font-bold mb-2">Premium</h3>
-          <p className="text-gray-400 mb-6">
-            Ideal for individuals who need advanced features and tools for client work.
-          </p>
-          <p className="text-4xl font-bold">$25 <span className="text-lg font-medium">/ Month</span></p>
-          <button className="mt-6 px-6 py-2 bg-orange-600 text-white font-semibold rounded-lg">
-            Get Started Now
-          </button>
-          <ul className="mt-6 space-y-4">
-            <li>✔️ 20,000+ of PNG & SVG graphics</li>
-            <li>✔️ Access to 100 million stock images</li>
-            <li>✔️ Upload custom icons and fonts</li>
-            <li>✔️ Unlimited Sharing</li>
-            <li>✔️ Upload graphics & video in up to 4k</li>
-            <li>✔️ Unlimited Projects</li>
-            <li>✔️ Instant Access to our design system</li>
-            <li>❌ Create teams to collaborate on designs</li>
-          </ul>
-        </div>
+                <div className="bg-[#D4611E] h-[370px] rounded-lg p-4 text-white shadow">
+                  <h3 className="font-semibold text-2xl">Premium</h3>
+                  <h3 className="font-bold text-3xl">$49</h3>
+                  <p className="mb-4">The perfect way to get started</p>
+                  <hr />
+                  <div className="flex flex-col gap-4 mt-6 text-md">
+                    <div className="flex gap-2 items-center">
+                      <Image
+                        src={RightImg} // Path to your image
+                        alt="Description of the image"
+                        width={20} // Desired width of the image
+                        height={20} // Desired height of the image
+                      />
+                      <p>Upto 2 users</p>
+                    </div>
+                    <div className="flex gap-2 items-center">
+                      <Image
+                        src={RightImg} // Path to your image
+                        alt="Description of the image"
+                        width={20} // Desired width of the image
+                        height={20} // Desired height of the image
+                      />
+                      <p>No support</p>
+                    </div>
+                    <div className="flex gap-2 items-center">
+                      <Image
+                        src={RightImg} // Path to your image
+                        alt="Description of the image"
+                        width={20} // Desired width of the image
+                        height={20} // Desired height of the image
+                      />
+                      <p>Limited statistic</p>
+                    </div>
+                    <div className="flex gap-2 items-center">
+                      <Image
+                        src={RightImg} // Path to your image
+                        alt="Description of the image"
+                        width={20} // Desired width of the image
+                        height={20} // Desired height of the image
+                      />
+                      <p>Limited statistic</p>
+                    </div>
+                  </div>
+                  <div>
+                    <button className="w-full bg-white text-black rounded-md mt-3 mb-2 py-1">GET STARTED</button>
+                  </div>
+                </div>
 
-        {/* Supreme Tier */}
-        <div className="flex-1 border border-gray-300 rounded-lg p-6 flex flex-col items-center text-left shadow-lg">
-          <h3 className="text-xl font-bold mb-2">Supreme</h3>
-          <p className="text-gray-500 mb-6">
-            Ideal for businesses who need personalized services and security for large teams.
-          </p>
-          <p className="text-4xl font-bold">$100 <span className="text-lg font-medium">/ Month</span></p>
-          <button className="mt-6 px-6 py-2 border border-orange-600 text-orange-600 font-semibold rounded-lg">
-            Get Started Now
-          </button>
-          <ul className="mt-6 space-y-4 text-gray-600">
-            <li>✔️ 20,000+ of PNG & SVG graphics</li>
-            <li>✔️ Access to 100 million stock images</li>
-            <li>✔️ Upload custom icons and fonts</li>
-            <li>✔️ Unlimited Sharing</li>
-            <li>✔️ Upload graphics & video in up to 4k</li>
-            <li>✔️ Unlimited Projects</li>
-            <li>✔️ Instant Access to our design system</li>
-            <li>✔️ Create teams to collaborate on designs</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+                <div className="bg-[#D4611E] h-[330px] rounded-lg p-4 text-white shadow">
+                  <h3 className="font-semibold text-2xl">Supreme</h3>
+                  <h3 className="font-bold text-3xl">$0</h3>
+                  <p className="mb-4">The perfect way to get started</p>
+                  <hr />
+                  <div className="flex flex-col gap-4 mt-6 text-md">
+                    <div className="flex gap-2 items-center">
+                      <Image
+                        src={RightImg} // Path to your image
+                        alt="Description of the image"
+                        width={20} // Desired width of the image
+                        height={20} // Desired height of the image
+                      />
+                      <p>Upto 2 users</p>
+                    </div>
+                    <div className="flex gap-2 items-center">
+                      <Image
+                        src={RightImg} // Path to your image
+                        alt="Description of the image"
+                        width={20} // Desired width of the image
+                        height={20} // Desired height of the image
+                      />
+                      <p>No support</p>
+                    </div>
+                    <div className="flex gap-2 items-center">
+                      <Image
+                        src={RightImg} // Path to your image
+                        alt="Description of the image"
+                        width={20} // Desired width of the image
+                        height={20} // Desired height of the image
+                      />
+                      <p>Limited statistic</p>
+                    </div>
+                  </div>
+                  <div>
+                    <button className="w-full bg-white text-black rounded-md mt-3 mb-2 py-1">START TRIAL</button>
+                  </div>
+                </div>
+              </div>
+               
+            </FadeIn>
+          </Container>
       
     </main>
 
