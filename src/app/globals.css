@@ -18,12 +18,11 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(œ
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    rgb(var(--background-end-rgb))
+  ) rgb(var(--background-start-rgb));
 }
 
 .shadow-services {
@@ -51,6 +50,7 @@ body {
 .bg-ring {
   background: url(../images/bg-ring.gif) center no-repeat;
 }
+
 
 @keyframes bounceInTwo {
   0% { opacity: 0; } 

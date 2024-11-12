@@ -71,9 +71,9 @@ function Header({
             <Link href="/products" className="text-gray-800 font-semibold hover:text-gray-600">
               Products
             </Link>
-            <Link href="/blog" className="text-gray-800 font-semibold hover:text-gray-600">
+            {/* <Link href="/blog" className="text-gray-800 font-semibold hover:text-gray-600">
               Blog
-            </Link>
+            </Link> */}
             <Link href="/about" className="text-gray-800 font-semibold hover:text-gray-600">
               About Us
             </Link>

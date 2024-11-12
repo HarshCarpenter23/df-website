@@ -70,7 +70,7 @@ function About() {
             </p>
 
             {/* Stats Section */}
-            <div className="bg-white rounded-2xl shadow-md p-6 inline-flex gap-8 md:gap-12 justify-center md:justify-start">
+            {/* <div className="bg-white rounded-2xl shadow-md p-6 inline-flex gap-8 md:gap-12 justify-center md:justify-start">
               <div>
                 <div className="text-2xl font-bold mb-1">35</div>
                 <div className="text-sm text-gray-500">Employees</div>
@@ -83,7 +83,7 @@ function About() {
                 <div className="text-2xl font-bold mb-1">$25M</div>
                 <div className="text-sm text-gray-500">Invoices billed</div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 
