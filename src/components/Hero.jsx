@@ -22,19 +22,19 @@ import animationData from 'src/images/Animation - 1731382855191.json';
 
 function Hero() {
   return (
-    <main className="flex min-h-screen  flex-col items-center justify-between px-4 lg:px-20 py-5 lg:py-19 mt-5 md:mt-0">
+    <main className="flex min-h-screen  flex-col items-center justify-between px-4 lg:px-24 py-10 lg:py-24 mt-10 md:mt-0">
       <div className="flex flex-col gap-8 lg:gap-12 w-full mb-[70px] justify-center items-start text-left">
         {/* Full-width container */}
         <div className="flex flex-col  lg:flex-row justify-between items-start w-full gap-8 lg:gap-12">
           {/* Left Side: Text */}
-          <div className="lg:w-1/2">
+          <div className="lg:w-1/2 ">
             <h2 className="text-2xl lg:text-4xl font-bold mt-2 leading-tight">
               Protect your digital world with <span className="text-orange-600">password-less </span>authentication.
             </h2>
             <p className="mt-4 text-gray-600 text-lg leading-relaxed">
               Experience seamless security. Say goodbye to passwords and hello to a safer digital life with Digital Fortress.
             </p>
-            <div className='flex gap-11  items-end'>
+            {/* <div className='flex gap-11  items-end'>
               <Image
                 src={CSAImg} // replace with correct path
                 width={120}
@@ -71,7 +71,7 @@ function Hero() {
               />
 
 
-            </div>
+            </div> */}
             
           </div>
 
@@ -81,7 +81,7 @@ function Hero() {
               loop
               animationData={animationData}
               play
-              style={{ width: 300, height: 400, marginTop:2 }} // Adjust as needed
+              style={{ width: 300, height: 300 }} // Adjust as needed
             />
           </div>
         </div>
