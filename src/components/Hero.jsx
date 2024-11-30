@@ -89,21 +89,22 @@ function Hero() {
         {/* Stats Section Full-Width */}
         <div className="w-full bg-gradient-to-r from-orange-400 to-orange-500 py-4 lg:py-4 text-white mt-8 flex justify-around rounded-lg px-6 lg:px-16 font-sans">
           <div className="flex flex-col items-center">
+            <span className="text-3xl font-bold">100%</span>
+            <span className="text-sm">Password-Free</span>
+          </div>
+          <div className="flex flex-col items-center">
             <span className="text-3xl font-bold">35+</span>
             <span className="text-sm">Experts on Board</span>
           </div>
           <div className="flex flex-col items-center">
-            <span className="text-3xl font-bold">30+</span>
-            <span className="text-sm">Valued Clients</span>
+            <span className="text-3xl font-bold">6+</span>
+            <span className="text-sm">Identity</span>
           </div>
           <div className="flex flex-col items-center">
-            <span className="text-3xl font-bold">50+</span>
-            <span className="text-sm">Active Users</span>
+            <span className="text-3xl font-bold">2+</span>
+            <span className="text-sm">Awards</span>
           </div>
-          <div className="flex flex-col items-center">
-            <span className="text-3xl font-bold">100%</span>
-            <span className="text-sm">Password-Free</span>
-          </div>
+          
         </div>
       </div>
 
